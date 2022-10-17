@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;0,800;1,400&display=swap');
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif, italic;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* Styling Header and Footer */
+
+.navbar_btn {
+    color: #c03653;
+    margin: 5px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar_btn:hover {
+    color: #b0334e;
+}
+
+.copyright {
+    color: #1d6098;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+
+/* Styling Home Page */
+
+.homepage {
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.homeheaderbig {
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+    color: #1d6098;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 90px;
+    overflow: hidden;
+}
+
+.homeheadersmall {
+    color: #c03653;
+    margin: 0px;
+    font-weight: bold;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.homeheadersmall span {
+    font-size: 15px;
+}
+
+
+/* .homeheaderlink {
+    color: #1d6098;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.homeheaderline {
+    color: #c03653;
+    min-width: 10em;
+} */
+
+.homeheaderother {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.mbmu_details {
+    width: 260px;
+    height: 70px;
+    display: inline-flex;
+    background: url('../public/disha-icon-sprite.png') no-repeat 0px -80px;
+}
+
+.homeitem {
+    margin: 10px 0px 20px 0px;
+    padding: 0px;
+    justify-content: center;
+    text-align: center;
+}
+
+.item {
+    display: inline-flex;
+    padding: 15px;
+    margin: 10px;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+}
+
+.itemtext {
+    margin: 0px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.itemtext p {
+    margin: 0px;
+    color: #c03653;
+    overflow: hidden;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.MuiGrid-root {
+    text-align: left;
+    padding: 0px;
+}
+
+.home_link {
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 30px;
+    margin: 0px;
+    color: #c03653;
+    overflow: hidden;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.home_link:hover {
+    color: #b0334e;
+}
+
+.item .icon {
+    height: 65px;
+    min-width: 65px;
+    background: url('../public/disha-icon-sprite.png') 0px 0px no-repeat;
+}
+
+.item .icon.library {
+    background-position: 0px 0px;
+}
+
+.item .icon.academic {
+    background-position: -73px 0px;
+}
+
+.item .icon.research {
+    background-position: -140px 0px;
+}
+
+.item .icon.certificate {
+    background-position: -206px 0px;
+}
+
+.item .icon.techno {
+    background-position: -271px 0px;
+}
+
+.itemtext p {
+    font-weight: 400;
+}
+
+.itemtext .small {
+    font-size: 10px;
+    text-align: right;
+    padding: 10px;
+    color: #c03653;
+}
+
+.homeitem {
+    justify-content: center;
+}
+
+
+/* Styling Library, Reports Table etc. */
+
+.list-container {
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 1em 3em;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.list-header-left {
+    float: left;
+    display: block;
+    margin: 10px;
+}
+
+.list-header-left p {
+    font-weight: 600;
+    font-size: 12px;
+    margin: 0px;
+    color: #1d6098;
+}
+
+.list-header-left h2 {
+    color: #c03653;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.booklist {
+    padding: 20px;
+}
+
+[data-column-id].rdt_TableCol {
+    background-color: #dfebf5;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.download-btn {
+    background-color: #3173ab;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.download-btn:hover {
+    background-color: #184c79;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.search {
+    float: right;
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.search:active {
+    border-radius: 8px;
+}
+
+
+/* Styling For Mobile Screen */
+
+@media screen and (max-width: 750px) {
+    .homeitem {
+        margin: 5px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .list-container {
+        margin: 1em;
+    }
+    .homeheaderbig {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .homeheadersmall {
+        font-size: 0.6em;
+    }
+    .item {
+        float: left;
+        margin: 0px;
+    }
+    .item img {
+        width: 50px;
+        height: 50px;
+    }
+    .home_link {
+        font-size: 18px;
+    }
+    .itemtext p {
+        font-size: 12px;
+    }
+    .rdt_TableRow {
+        display: flex;
+        flex-direction: column;
+        height: max-content;
+        padding: 10px 0px 20px 0px;
+    }
+    .ifOHjV {
+        display: flex !important;
+    }
+    .rdt_TableHead {
+        display: none !important;
+    }
+    .list-header {
+        margin-bottom: 20px !important;
+    }
+    .search {
+        float: left;
+        width: 90%;
+        height: 24px;
+        font-size: 14px;
+        border-radius: 4px;
+        border: 1px solid #555;
+    }
+    .rdt_TableCell {
+        max-width: 100% !important;
+        flex-basis: max-content !important;
+        min-width: 100px !important;
+    }
+    .rdt_TableCell.title-cell {
+        font-size: 14px;
+        font-weight: bold;
+        flex-basis: 15px;
+        margin: 10px 0px 5px 0px;
+    }
+    .rdt_TableCell.title-cell div:first-child {
+        white-space: normal;
+        overflow: auto;
+        max-height: 100%;
+    }
+    .rdt_TableCell.publisher-cell {
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .rdt_TableCell.edition-cell {
+        font-size: 12px;
+        color: #666;
+        display: none;
+    }
+    .rdt_TableCell.author-cell {
+        font-size: 11px;
+        font-style: italic;
+    }
+    .rdt_TableCell.author-cell.uploadedBy::before {
+        content: "Uploaded by: ";
+    }
+    .rdt_TableCell.accno-cell {
+        font-weight: bold;
+    }
+    .rdt_TableCell.status-cell {
+        color: #1d6098;
+    }
+    .rdt_TableCell.uploadDate-cell,
+    .rdt_TableCell.fileSize-cell {
+        font-size: 11px;
+        padding-top: 2px;
+    }
+    .rdt_TableCell.uploadDate-cell::before {
+        content: 'Upload Date: ';
+    }
+    .rdt_TableCell.fileSize-cell::before {
+        content: 'File Size: ';
+    }
+    .rdt_TableCell.dld-button-cell {
+        padding-top: 10px;
+    }
+    .rdt_TableCell.accno-cell::before {
+        content: "Accession No: ";
+    }
+    .rdt_TableCell.status-cell::before {
+        content: "Status: ";
+    }
+}
+
+.rdt_TableCell .share-cell {
+    margin-left: 10px;
+    transition: 0.3s all ease;
+    border-radius: 34px;
+    border: 1px solid transparent;
+}
+
+.rdt_TableCell .share-cell:hover {
+    opacity: 0.9;
+    border: 1px solid #3173ab;
+}
+
+@media print {
+    *,
+     ::after,
+     ::before {
+        text-shadow: none!important;
+        box-shadow: none!important
+    }
+    a:not(.btn) {
+        text-decoration: underline
+    }
+    abbr[title]::after {
+        content: " (" attr(title) ")"
+    }
+    pre {
+        white-space: pre-wrap!important
+    }
+    blockquote,
+    pre {
+        border: 1px solid #adb5bd;
+        page-break-inside: avoid
+    }
+    img,
+    tr {
+        page-break-inside: avoid
+    }
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3
+    }
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+    body {
+        min-width: 992px!important
+    }
+    .container {
+        min-width: 992px!important
+    }
+    .badge {
+        border: 1px solid #000
+    }
+    .table {
+        border-collapse: collapse!important
+    }
+    .table td,
+    .table th {
+        background-color: #fff!important
+    }
+    .table-bordered td,
+    .table-bordered th {
+        border: 1px solid #dee2e6!important
+    }
+    .table-dark {
+        color: inherit
+    }
+    .table-dark tbody+tbody,
+    .table-dark td,
+    .table-dark th,
+    .table-dark thead th {
+        border-color: #dee2e6
+    }
+}
+
+.certiForm-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/* Make clicks pass-through */
+
+#nprogress {
+    pointer-events: none;
+}
+
+#nprogress .bar {
+    background: #c03653;
+    position: fixed;
+    z-index: 1031;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    opacity: 0.8;
+}
+
+
+/* Fancy blur effect */
+
+#nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #c03653, 0 0 5px #c03653;
+    opacity: 1.0;
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+    -ms-transform: rotate(3deg) translate(0px, -4px);
+    transform: rotate(3deg) translate(0px, -4px);
+}
+
+
+/* Remove these to get rid of the spinner */
+
+#nprogress .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    bottom: 15px;
+    right: 15px;
+}
+
+#nprogress .spinner-icon {
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    border: solid 4px transparent;
+    border-top-color: #c03653;
+    border-left-color: #c03653;
+    border-radius: 50%;
+    -webkit-animation: nprogress-spinner 400ms linear infinite;
+    animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+    overflow: hidden;
+    position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+    position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes nprogress-spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-content {
+    margin-top: 100px;
+}
+
+@media print {
+    .main-content {
+        margin-top: 0px;
+    }
+}
+
+.certiForm-container h2 {
+    overflow: hidden;
+}
+
+.menu-bar {
+    justify-content: space-between;
+}
